@@ -1,0 +1,10 @@
+<!-- Interpolation -->
+<h2>Welcome to {{hotelName}}</h2>
+
+<!-- Property Binding - Box Syntax -->
+<div [hidden]="hideRooms">
+    This hotel has rooms = <span [innerText]="numberOfRooms"></span>
+</div>
+
+<!-- Event Binding - Circle Syntax -->
+<button (click)="toggle()">Toggle Me!</button>
