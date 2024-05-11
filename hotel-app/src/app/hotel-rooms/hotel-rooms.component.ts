@@ -10,6 +10,7 @@ export class HotelRoomsComponent {
   hotelName: string = 'Hilton';
   numberOfRooms: number = 20;
   hideRooms: boolean = false;
+  role: string = 'User';
 
   rooms: Room[] = [{
     id: 1,

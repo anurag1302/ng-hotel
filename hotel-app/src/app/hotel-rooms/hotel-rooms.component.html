@@ -37,3 +37,15 @@
         </tr>
     </tbody>
 </table>
+
+<!-- ngSwitch -->
+<div [ngSwitch]="role">
+    <div *ngSwitchCase="'Admin'">
+        Welcome to Admin Section
+    </div>
+    <div *ngSwitchCase="'User'">
+        Welcome to User Section</div>
+    <div *ngSwitchDefault>
+        You're not authorized!
+    </div>
+</div>
