@@ -18,7 +18,8 @@ export class HotelRoomsComponent {
     roomType: 'Single Bed AC',
     facilities: 'test',
     checkinTime: new Date('11-05-2024'),
-    checkoutTime: new Date('12-05-2024')
+    checkoutTime: new Date('12-05-2024'),
+    roomPrice:2000
   },
   {
     id: 2,
@@ -26,7 +27,8 @@ export class HotelRoomsComponent {
     roomType: 'Double Bed AC',
     facilities: 'test2',
     checkinTime: new Date('11-05-2024'),
-    checkoutTime: new Date('12-05-2024')
+    checkoutTime: new Date('12-05-2024'),
+    roomPrice:4000
   },
   {
     id: 3,
@@ -34,7 +36,8 @@ export class HotelRoomsComponent {
     roomType: 'Deluxe',
     facilities: 'test3',
     checkinTime: new Date('11-05-2024'),
-    checkoutTime: new Date('12-05-2024')
+    checkoutTime: new Date('12-05-2024'),
+    roomPrice:5000
   }]
 
   toggle() {

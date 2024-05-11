@@ -5,6 +5,7 @@ export interface Room {
     facilities: string;
     checkinTime: Date;
     checkoutTime: Date;
+    roomPrice:number;
 }
 
 export interface RoomList{
