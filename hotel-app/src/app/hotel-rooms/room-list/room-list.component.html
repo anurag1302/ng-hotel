@@ -9,6 +9,7 @@
         <th>Checkin Time</th>
         <th>Checkout Time</th>
         <th>Price</th>
+        <th>Action</th>
     </thead>
     <tbody>
         <tr [ngClass]="e?'even1':'odd1'" *ngFor="let room of rooms; let e=even; let o=odd; let i=index">
@@ -20,6 +21,9 @@
             <td>{{room.checkinTime | date:'dd/MMM/yy'}}</td>
             <td>{{room.checkoutTime | date}}</td>
             <td>{{room.roomPrice | currency:'USD'}}</td>
+            <td>
+                <button (click)="selectRoom(room)">Select</button>
+            </td>
         </tr>
     </tbody>
 </table>

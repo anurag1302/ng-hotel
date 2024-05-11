@@ -12,6 +12,7 @@ export class HotelRoomsComponent implements OnInit {
   numberOfRooms: number = 20;
   hideRooms: boolean = false;
   role: string = 'User';
+  selectedRoomFromChild!: Room;
 
   rooms: Room[] = [];
 
@@ -47,6 +48,11 @@ export class HotelRoomsComponent implements OnInit {
 
   toggle() {
     this.hideRooms = !this.hideRooms;
+  }
+
+  fromChild(room: Room) {
+    console.log(room);
+    this.selectedRoomFromChild = room;
   }
 
 }
