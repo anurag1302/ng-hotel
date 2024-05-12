@@ -24,7 +24,8 @@ export class HotelRoomsComponent implements OnInit {
       facilities: 'test',
       checkinTime: new Date('11-05-2024'),
       checkoutTime: new Date('12-05-2024'),
-      roomPrice: 2000
+      roomPrice: 2000,
+      rating:4.5
     },
     {
       id: 2,
@@ -33,7 +34,8 @@ export class HotelRoomsComponent implements OnInit {
       facilities: 'test2',
       checkinTime: new Date('11-05-2024'),
       checkoutTime: new Date('12-05-2024'),
-      roomPrice: 4000
+      roomPrice: 4000,
+      rating:4.3
     },
     {
       id: 3,
@@ -42,7 +44,8 @@ export class HotelRoomsComponent implements OnInit {
       facilities: 'test3',
       checkinTime: new Date('11-05-2024'),
       checkoutTime: new Date('12-05-2024'),
-      roomPrice: 5000
+      roomPrice: 5000,
+      rating:4.67
     }]
   }
 

@@ -9,6 +9,7 @@
         <th>Checkin Time</th>
         <th>Checkout Time</th>
         <th>Price</th>
+        <th>Rating</th>
         <th>Action</th>
     </thead>
     <tbody>
@@ -21,6 +22,7 @@
             <td>{{room.checkinTime | date:'dd/MMM/yy'}}</td>
             <td>{{room.checkoutTime | date}}</td>
             <td>{{room.roomPrice | currency:'USD'}}</td>
+            <td>{{room.rating}}</td>
             <td>
                 <button (click)="selectRoom(room)">Select</button>
             </td>
